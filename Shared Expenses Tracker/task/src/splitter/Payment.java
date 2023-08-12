@@ -1,10 +1,6 @@
 package splitter;
 
-import java.util.Date;
+import java.time.LocalDate;
 
-public record Payment(Person from, Person to, int amount, Date date)  implements Comparable<Payment>{
-    // setup to be ordered by date when added to a TreeSet
-    public int compareTo(Payment other) {
-        return date.compareTo(other.date);
-    }
+public record Payment(LocalDate date, Person from, Person to, int amount) {
 }

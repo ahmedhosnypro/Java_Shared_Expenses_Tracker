@@ -1,13 +1,14 @@
 package splitter;
 
-public class Person {
-    String name;
+public record Person(String name) {
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
 
-    public Person(String name) {
-        this.name = name;
+        Person person = (Person) o;
+
+        return name.equals(person.name);
     }
 
-    public String getName() {
-        return name;
-    }
 }

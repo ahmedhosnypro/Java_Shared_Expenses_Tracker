@@ -243,39 +243,24 @@ files:
         }
     }
   learner_created: false
-- name: src/splitter/command/Command.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/Commander.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/Commands.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/UnkownCommand.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/BalanceCommand.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/HelpCommand.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/BorrowCommand.java
-  visible: true
-  learner_created: true
-- name: src/splitter/command/RepayCommand.java
-  visible: true
-  learner_created: true
 - name: src/splitter/Person.java
+  visible: true
+  learner_created: true
+- name: src/splitter/Pair.java
+  visible: true
+  learner_created: true
+- name: src/splitter/Commander.java
   visible: true
   learner_created: true
 - name: src/splitter/Payment.java
   visible: true
   learner_created: true
-- name: src/splitter/PaymentManager.java
+- name: src/splitter/Transactions.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11718#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 12 Aug 2023 20:34:57 UTC"
 record: -1
