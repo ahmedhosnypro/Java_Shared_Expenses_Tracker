@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/Shared Expenses Tracker/task/build/
+/Shared Expenses Tracker/task/out/
+/Shared Expenses Tracker/task/out/production/classes/
+/Shared Expenses Tracker/task/out/test/classes/
